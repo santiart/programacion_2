@@ -1,0 +1,7 @@
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\bin\Debug\Ejercicio_02.exe.config
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\bin\Debug\Ejercicio_02.exe
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\bin\Debug\Ejercicio_02.pdb
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\obj\Debug\Ejercicio_02.csprojAssemblyReference.cache
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\obj\Debug\Ejercicio_02.csproj.CoreCompileInputs.cache
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\obj\Debug\Ejercicio_02.exe
+C:\Users\josia_000\Desktop\Agustin\programacion\Programacion 2\Rivola.Agustin\Ejercicio_02\obj\Debug\Ejercicio_02.pdb

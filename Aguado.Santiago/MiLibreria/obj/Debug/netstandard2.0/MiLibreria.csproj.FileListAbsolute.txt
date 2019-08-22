@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb

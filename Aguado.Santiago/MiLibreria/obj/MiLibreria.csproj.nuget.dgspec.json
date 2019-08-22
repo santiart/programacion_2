@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj",
+        "projectName": "MiLibreria",
+        "projectPath": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj",
+        "packagesPath": "C:\\Users\\josia_000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\josia_000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
