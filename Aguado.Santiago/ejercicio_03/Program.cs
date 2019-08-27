@@ -47,8 +47,6 @@ namespace ejercicio_03
                     Console.WriteLine("el numero {0} es un numero primo", i);
                 }
             }
-            
-
 
             Console.Read();
         }

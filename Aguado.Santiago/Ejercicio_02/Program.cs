@@ -11,7 +11,7 @@ namespace Ejercicio_02
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio_02";
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Blue;
 
             int number;
             int resultCuadrado;

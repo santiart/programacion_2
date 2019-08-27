@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\bin\Debug\Clase_03.exe.config
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\bin\Debug\Clase_03.exe
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\bin\Debug\Clase_03.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\obj\Debug\Clase_03.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\obj\Debug\Clase_03.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\obj\Debug\Clase_03.exe
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_03\obj\Debug\Clase_03.pdb

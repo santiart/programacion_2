@@ -107,3 +107,5 @@ C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\Clase_02\obj\Debug\Clase_0
 C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\Clase_02\obj\Debug\Clase_02.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\Clase_02\bin\Debug\clase_02.Entidades.dll
 C:\Users\alumno\Desktop\programacion-2\Rivola.Agustin\Clase_02\bin\Debug\clase_02.Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_02\obj\Debug\Clase_02.exe
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_02\obj\Debug\Clase_02.pdb

@@ -43,11 +43,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -177,27 +177,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josia_000\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\alumno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\programacion_2\\Aguado.Santiago\\MiLibreria\\MiLibreria.csproj",
       "projectName": "MiLibreria",
-      "projectPath": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\MiLibreria.csproj",
-      "packagesPath": "C:\\Users\\josia_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josia_000\\Desktop\\programacion-2\\Rivola.Agustin\\MiLibreria\\obj\\",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\programacion_2\\Aguado.Santiago\\MiLibreria\\MiLibreria.csproj",
+      "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\programacion_2\\Aguado.Santiago\\MiLibreria\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\josia_000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {}
