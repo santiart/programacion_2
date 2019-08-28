@@ -26,7 +26,10 @@ namespace Ejercicio_16
             alumno3.nombre = "Ana";
             alumno3.legajo = 351453254;
 
-
+            Console.WriteLine(alumno1.Mostrar());
+            Console.WriteLine(alumno2.Mostrar());
+            Console.WriteLine(alumno3.Mostrar());
+            Console.ReadLine();
         }
     }
 }
