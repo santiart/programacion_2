@@ -19,8 +19,13 @@ namespace Clase_04.Windows_Forms
         }
 
 
-
         private void Button1_Click(object sender, EventArgs e)
+        {
+           //preguntar
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             int entero = int.Parse(this.textBox1.Text);
             string cadena = this.textBox2.Text;
@@ -29,8 +34,7 @@ namespace Clase_04.Windows_Forms
             Cosa thing = new Cosa(cadena, fecha, entero);
             MessageBox.Show(thing.Mostrar());
 
-            
-            
+
         }
 
         //backcolor
