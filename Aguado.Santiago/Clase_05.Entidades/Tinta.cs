@@ -48,7 +48,12 @@ namespace Clase_05.Entidades
 
         public static string Mostrar(tinta t)
         {
-            return t.Mostrar();
+            string retorno = " ";
+            if(!object.Equals(t,null))
+            {
+                 retorno = t.Mostrar();
+            }
+            return retorno;
         }
 
         public static bool operator == (tinta a, tinta b)
