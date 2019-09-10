@@ -21,37 +21,36 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
-            return "color: " + this.color.ToString() + "-" + "Marca: " + this.marca + "-" + "Cantidad: " + this.cantidad.ToString() + "\n";
+            return "color: " + this.color.ToString() + "\n" + "Marca: " + this.marca + "\n" + "Cantidad: " + this.cantidad.ToString() + "\n";
         }
 
         public static implicit operator string(Tempera t)
         {
-            string ret = " ";
-            if(t != null)
-            {
-                ret = t.Mostrar();
-            }
-            return ret;
+            //string ret = " ";
+            //if(t != null)
+            //{
+            //    ret = t.Mostrar();
+            //}
+            //return ret;
+            return t.Mostrar();
         }
 
         public static bool operator ==(Tempera a, Tempera b)
         {
             bool retorno = false;
-            if(a.marca == b.marca && a.color == b.color && a != null && b!= null)
+            if(a != null && b!= null)
             {
-                retorno = true;
+                if(a.color == b.color && a.marca == b.marca)
+                {
+                    retorno = true;
+                }
             }
             return retorno;
         }
 
         public static bool operator !=(Tempera a, Tempera b)
         {
-            bool retorno = false;
-            if(a != null && b!= null)
-            {
-            retorno =  !(a.marca == b.marca && a.color == b.color);
-            }
-            return retorno;
+            return !(a == b);
         }
 
         public static  Tempera operator +(Tempera a, int marca)

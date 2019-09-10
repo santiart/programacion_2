@@ -12,3 +12,7 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\nets
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache

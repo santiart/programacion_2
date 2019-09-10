@@ -12,3 +12,7 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\obj\De
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\obj\Debug\netstandard2.0\clase_02.Entidades.AssemblyInfo.cs
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\obj\Debug\netstandard2.0\clase_02.Entidades.dll
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\obj\Debug\netstandard2.0\clase_02.Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\bin\Debug\netstandard2.0\clase_02.Entidades.deps.json
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\bin\Debug\netstandard2.0\clase_02.Entidades.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\bin\Debug\netstandard2.0\clase_02.Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\clase_02.Entidades\obj\Debug\netstandard2.0\clase_02.Entidades.csprojAssemblyReference.cache
