@@ -14,13 +14,13 @@ namespace Clase_07
     public partial class FrmTemperas : Form
     {
         Clase_06.Entidades.Tempera t;
-        Clase_06.Entidades.Paleta p;
-        FrmTemperas frm;
-        private string tempera;
 
-        public string MiTempera
+        //FrmTemperas frm;
+        //private Tempera tempera;
+
+        public Tempera MiTempera
         {
-            get { return tempera; }
+            get { return this.t; }
         }
 
 
@@ -29,7 +29,7 @@ namespace Clase_07
             InitializeComponent();
 
             this.StartPosition = FormStartPosition.CenterScreen;
-            
+
             foreach (ConsoleColor c in Enum.GetValues(typeof(ConsoleColor)))
             {
                 this.comboBox3.Items.Add(c);
@@ -50,10 +50,7 @@ namespace Clase_07
             colour = (ConsoleColor)this.comboBox3.SelectedItem;
             this.t = new Tempera(colour, brand, int.Parse(cant));
             MessageBox.Show(this.t);
-            //this.DialogResult
-            
-            this.Close();
-
+            this.DialogResult = DialogResult.OK;
         }
 
         private void buttonCancel(object sender, EventArgs e)

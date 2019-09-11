@@ -11,7 +11,7 @@ namespace Clase_06.Entidades
         private Tempera[] colores;
         private int cantidadMaximaColores;
 
-        private Paleta():this(5)
+        private Paleta() : this(5)
         {
             //this.colores = new Tempera[5];
             //this.cantidadMaximaColores = 5; 
@@ -19,29 +19,34 @@ namespace Clase_06.Entidades
 
         private Paleta(int cantMax)
         {
-            this.cantidadMaximaColores = cantMax;
             this.colores = new Tempera[cantMax];
+            this.cantidadMaximaColores = cantMax;
         }
 
         public static implicit operator Paleta(int cantidadMaxima)
         {
-            Paleta a = new Paleta(cantidadMaxima);
+            Paleta a = new Paleta();
             return a;
         }
 
         private string Mostrar()
         {
-            string retorno = " ";
+            string retorno;
             retorno = " cantidad maxima de colores: " + this.cantidadMaximaColores.ToString();
-            for(int i = 0; i < this.colores.Length;i++)
+            for (int i = 0; i < this.cantidadMaximaColores; i++)
             {
-                retorno += "\n";
-                if(!this.colores[i].Equals(null))
-                {
-                    retorno += "\n" + this.colores[i];
-                }
+                //retorno += "\n";
+                //if(!this.colores[i].Equals(null))
+                //{
+                retorno += "\n" + (string)this.colores[i];
+                // }
             }
             return retorno;
+        }
+
+        public static implicit operator string(Paleta p)
+        {
+            return p.Mostrar();
         }
 
         //public static string Mostrar(Paleta a)
@@ -57,11 +62,11 @@ namespace Clase_06.Entidades
         public static bool operator ==(Paleta p, Tempera t)
         {
             bool retorno = false;
-            if(!object.Equals(p,null) && !object.Equals(t,null))
+            if (!object.Equals(p, null) && !object.Equals(t, null))
             {
-                for(int i = 0; i < p.cantidadMaximaColores; i++)
+                for (int i = 0; i < p.colores.Length; i++)
                 {
-                    if(p.colores[i] == t)
+                    if (p.colores[i] == t)
                     {
                         retorno = true;
                     }
@@ -81,60 +86,55 @@ namespace Clase_06.Entidades
 
         public static Paleta operator +(Paleta p, Tempera t)
         {
-            int index = -1;
-            if(!object.Equals(p,null) && !object.Equals(t,null))
+            //int index = -1;
+            if (p == t)
             {
-                for(int i = 0; i < p.colores.Length; i++)
+                if ((p | t) != -1)
                 {
-                    if(p.colores[i] != t)
-                    {
-                        index = p.obtenerLugarLibre();
-                        if(index != -1)
-                        {
-                            p.colores[index] = t;
-                            break;
-                        }
-                        else
-                        {
-                            Console.WriteLine("no hay lugar disponible en el array");
-                            Console.ReadLine();
-                        }
-                    }
-                    else
-                    {
-                        p.colores[i]+= t;
-                    }
+                    p.colores[p | t] += t;
                 }
+            }
+            else
+            {
+                if (p.obtenerLugarLibre() != -1)
+                    p.colores[p.obtenerLugarLibre()] = t;
             }
             return p;
         }
 
-        private  int obtenerLugarLibre()
+        private int obtenerLugarLibre()
         {
             int index = -1;
-            Paleta p = new Paleta();
-            if(!object.Equals(p,null))
+            for (int i = 0; i < this.cantidadMaximaColores; i++)
             {
-                for(int i = 0; i < p.colores.Length; i++)
+                if (this.colores[i] == null)
                 {
-                    if(!object.Equals(p.colores[i],null))// if(vec[i].estado == 0)
-                    {
-                        index = i;
-                        break;
-                    }
+                    index = i;
+                    break;
                 }
             }
-                return index;
+            return index;
         }
 
-        public static int ObtenerIndiceTempera()
+        public static int operator |(Paleta p, Tempera t)
         {
             int index = -1;
 
-            return 0;
+            for (int i = 0; i < p.cantidadMaximaColores; i++)
+            {
+                if (p.colores[i] == t)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
         }
 
+        public Tempera this[int index]
+        {
+            get { return this.colores[index]; }
 
-
+        }
     }
 }

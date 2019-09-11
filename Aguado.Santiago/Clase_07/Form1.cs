@@ -13,7 +13,7 @@ namespace Clase_07
 {
     public partial class Form1 : Form
     {
-        
+
         Paleta miPaleta;
 
         public Form1()
@@ -21,24 +21,56 @@ namespace Clase_07
             InitializeComponent();
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
-           // this.StartPosition = FormStartPosition.CenterScreen;
+            this.groupBox1.Visible = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+        private void administracionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.miPaleta = 5;
         }
 
         private void paletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //this.miPaleta = 5;
+            this.paletaToolStripMenuItem.Enabled = true;
+            this.groupBox1.Visible = true;
         }
 
         private void temperaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form frm = new FrmTemperas();
+            FrmTemperas frm = new FrmTemperas();
 
             //frm.MdiParent = this;
-
             frm.ShowDialog();
-
-            if()
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                this.listBox1.Items.Clear();
+                this.miPaleta += frm.MiTempera;
+                for(int i = 0; i < 5; i++)
+                {
+                    this.listBox1.Items.Add((string)this.miPaleta[i]);
+                }
+            }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            temperaToolStripMenuItem_Click(sender,e);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int index;
+            FrmTemperas frmT;
+            Tempera temp;
+            index = listBox1.SelectedIndex;
+            if(index != -1 && !object.Equals(this.miPaleta[index],null))
+            {
+                //frmT = new FrmTemperas(miPaleta[index]);
+                //soy una empanada que baila y nadie lo sabe
+            }
+
+        }
+
     }
 }

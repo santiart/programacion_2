@@ -21,29 +21,30 @@ namespace Clase_06.Entidades
 
         private string Mostrar()
         {
-            return "color: " + this.color.ToString() + "\n" + "Marca: " + this.marca + "\n" + "Cantidad: " + this.cantidad.ToString() + "\n";
+            return "color: " + this.color.ToString() + "\n" + "Marca: " + this.marca + "\n" + "Cantidad: " + this.cantidad.ToString() + "\n\n";
         }
 
         public static implicit operator string(Tempera t)
         {
-            //string ret = " ";
-            //if(t != null)
-            //{
-            //    ret = t.Mostrar();
-            //}
-            //return ret;
-            return t.Mostrar();
+            string retorno = " ";
+            if(!object.Equals(t,null))
+            retorno = t.Mostrar();
+            return retorno;
         }
 
         public static bool operator ==(Tempera a, Tempera b)
         {
             bool retorno = false;
-            if(a != null && b!= null)
+            if(!object.Equals(a,null) && !object.Equals(b,null))
             {
                 if(a.color == b.color && a.marca == b.marca)
                 {
                     retorno = true;
                 }
+            }
+            else if (object.Equals(a, null) && object.Equals(b, null))
+            {
+                retorno = true;
             }
             return retorno;
         }
@@ -53,15 +54,15 @@ namespace Clase_06.Entidades
             return !(a == b);
         }
 
-        public static  Tempera operator +(Tempera a, int marca)
+        public static  Tempera operator +(Tempera a, int num)
         {
-            a.cantidad += marca;
+            a.cantidad += num;
             return a;
         }
 
         public static Tempera operator +(Tempera a,Tempera b)
         {
-            if(a.cantidad == b.cantidad && a !=null && b!= null)
+            if(a == b)
             {
                 a += b.cantidad;
             }
