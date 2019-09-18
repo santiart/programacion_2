@@ -32,7 +32,7 @@ namespace Clase_08
             Console.WriteLine("Autor: {0}", miLibro.Autor);
             Console.WriteLine("Cantidad de páginas: {0}", miLibro.CantidadPaginas);
 
-            for (int i = 1; i < miLibro.CantidadCapitulos; i++)
+            for (int i = 0; i < miLibro.CantidadCapitulos; i++)
 
             {
                 if(miLibro[i] != null)

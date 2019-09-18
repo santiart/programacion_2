@@ -56,7 +56,7 @@ namespace Clase_08.Entidades
             get
             {
                 Capitulo c = null;
-                if(index > 0 && index <= this.capitulos.Count)
+                if(index >= 0 && index <= this.capitulos.Count)
                 {
                     c = this.capitulos[index];
                 }
@@ -64,17 +64,16 @@ namespace Clase_08.Entidades
             }
             set
             {
-                if(index > 0)
+
+                if (index <= this.capitulos.Count && index > 0)
                 {
-                    if (index > this.capitulos.Count)
-                    {
-                        this.capitulos.Add(value);
-                    }
-                    else if(index == this.capitulos.Count)
-                    {
-                        this.capitulos[index] = value;
-                    }
+                    this.capitulos.Insert(index, value);
                 }
+                else if(index == this.capitulos.Count)
+                {
+                    this.capitulos.Add(value);
+                }
+
             }
         }
 
