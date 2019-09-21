@@ -53,18 +53,21 @@
             this.crearToolStripMenuItem.Name = "crearToolStripMenuItem";
             this.crearToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
             this.crearToolStripMenuItem.Text = "Crear";
+            this.crearToolStripMenuItem.Click += new System.EventHandler(this.crearToolStripMenuItem_Click);
             // 
             // catedraToolStripMenuItem
             // 
             this.catedraToolStripMenuItem.Name = "catedraToolStripMenuItem";
-            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.catedraToolStripMenuItem.Text = "Cátedra";
+            this.catedraToolStripMenuItem.Click += new System.EventHandler(this.catedraToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 

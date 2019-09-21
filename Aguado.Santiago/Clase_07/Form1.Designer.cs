@@ -33,10 +33,10 @@
             this.paletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.temperaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -65,14 +65,14 @@
             this.paletaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.temperaToolStripMenuItem});
             this.paletaToolStripMenuItem.Name = "paletaToolStripMenuItem";
-            this.paletaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.paletaToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.paletaToolStripMenuItem.Text = "Paleta";
             this.paletaToolStripMenuItem.Click += new System.EventHandler(this.paletaToolStripMenuItem_Click);
             // 
             // temperaToolStripMenuItem
             // 
             this.temperaToolStripMenuItem.Name = "temperaToolStripMenuItem";
-            this.temperaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.temperaToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.temperaToolStripMenuItem.Text = "Tempera";
             this.temperaToolStripMenuItem.Click += new System.EventHandler(this.temperaToolStripMenuItem_Click);
             // 
@@ -88,7 +88,25 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
- //           this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(26, 258);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(189, 47);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "modificar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(140, 229);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "-";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // listBox1
             // 
@@ -108,25 +126,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(140, 229);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(26, 258);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(189, 47);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "modificar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,6 +136,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

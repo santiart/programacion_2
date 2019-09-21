@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace Clase_09
 {
-    class Catedra
+    public class Catedra
     {
         private List<Alumno> alumnos = new List<Alumno>();
 
         public List<Alumno> Alumnos
         {
             get { return this.alumnos; }
+        }
+
+        public Catedra()
+        {
+            this.alumnos = new List<Alumno>();
         }
 
         public static bool operator ==(Catedra c, Alumno a)
@@ -36,7 +41,7 @@ namespace Clase_09
         public static bool operator +(Catedra c, Alumno a)
         {
             bool retorno = false;
-            if( c != a)
+            if( !c.Alumnos.Contains(a))
             {
                 c.Alumnos.Add(a);//investigar funciones add, insert, etc
                 retorno = true;
@@ -44,27 +49,28 @@ namespace Clase_09
             return retorno;
         }
 
-        public static int operator |(Catedra c, Alumno a)
+        public static int operator |(Alumno a, Catedra c)
         {
-            int index = -1;
+            //int index = -1;
 
-            for (int i = 0; i <c.Alumnos.Count; i++)
-            {
-                if (c.Alumnos[i] == a)
-                {
-                    index = i;
-                    break;
-                }
-            }
-            return index;
+            //for (int i = 0; i <c.Alumnos.Count; i++)
+            //{
+            //    if (c.Alumnos[i] == a)
+            //    {
+            //        index = i;
+            //        break;
+            //    }
+            //}
+            //return index;
+            return c.Alumnos.IndexOf(a);
         }
 
         public static bool operator -(Catedra c, Alumno a)
         {
             bool retorno = false;
-            if(c.Alumnos.Contains(a))
+            if(c == a)
             {
-                c.Alumnos.Remove(a);
+                c.Alumnos.RemoveAt(a | c);
                 retorno = true;
             }
             return retorno;

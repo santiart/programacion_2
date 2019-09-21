@@ -1,0 +1,16 @@
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.WF.exe.config
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.WF.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.WF.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.FrmAlumno.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.FrmCatedra.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.FrmPrincipal.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.Properties.Resources.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.csproj.GenerateResource.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\bin\Debug\Clase_09.dll.config
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09.WF\obj\Debug\Clase_09.WF.csproj.CopyComplete

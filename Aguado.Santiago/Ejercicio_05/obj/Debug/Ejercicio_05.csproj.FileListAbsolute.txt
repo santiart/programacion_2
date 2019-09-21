@@ -5,3 +5,10 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ej
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.pdb
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\bin\Debug\Ejercicio_05.exe.config
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\bin\Debug\Ejercicio_05.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\bin\Debug\Ejercicio_05.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_05\obj\Debug\Ejercicio_05.pdb

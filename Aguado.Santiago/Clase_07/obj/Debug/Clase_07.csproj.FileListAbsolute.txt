@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.pdb
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.FrmTemperas.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.Form1.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.FrmTemperas.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.Properties.Resources.resources
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.GenerateResource.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.exe.config
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.CopyComplete

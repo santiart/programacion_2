@@ -87,6 +87,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -124,6 +125,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmCatedra";
             this.Text = "FrmCatedra";
+            this.Load += new System.EventHandler(this.FrmCatedra_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);

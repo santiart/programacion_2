@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_09
 {
-    class Alumno
+    public class Alumno
     {
         protected string apellido;
         protected EtipoExamen examen;

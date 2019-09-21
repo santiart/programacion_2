@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Clase_09
 {
-    class AlumnoCalificado : Alumno
+    public class AlumnoCalificado : Alumno
     {
         protected double nota;
 
