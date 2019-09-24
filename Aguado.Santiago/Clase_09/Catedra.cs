@@ -9,10 +9,15 @@ namespace Clase_09
     public class Catedra
     {
         private List<Alumno> alumnos = new List<Alumno>();
-
+        private List<AlumnoCalificado> alumnosCalificados = new List<AlumnoCalificado>();
         public List<Alumno> Alumnos
         {
             get { return this.alumnos; }
+        }
+
+        public List<AlumnoCalificado> AlumnosCalificados
+        {
+            get { return this.alumnosCalificados; }
         }
 
         public Catedra()
@@ -76,5 +81,14 @@ namespace Clase_09
             return retorno;
         }
 
+        public override string ToString()
+        {
+            string chain = "";
+            for(int i = 0; i<this.alumnos.Count; i++)
+            {
+                chain += this.alumnos[i].ToString();
+            }
+            return chain;
+        }
     }
 }

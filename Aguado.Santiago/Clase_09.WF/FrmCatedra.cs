@@ -22,6 +22,14 @@ namespace Clase_09.WF
             this.StartPosition = FormStartPosition.CenterScreen;
             this.miCatedra = new Catedra();
             this.alumnoCalificado = new List<AlumnoCalificado>();
+
+            foreach (ETipoOrdenamiento o in Enum.GetValues(typeof(ETipoOrdenamiento)))
+            {
+                this.comboBox1.Items.Add(o);
+            }
+            this.comboBox1.SelectedItem = ETipoOrdenamiento.ApellidoAscendente;
+            this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+
         }
 
 
@@ -32,18 +40,58 @@ namespace Clase_09.WF
             bool student = miCatedra + alumno.Alumno; 
             if(alumno.DialogResult == DialogResult.OK )
             {
-                this.listBox1.Items.Clear();
-                for(int i = 0; i < miCatedra.Alumnos.Count; i++)
-                {
-                    this.listBox1.Items.Add(Alumno.Mostrar(miCatedra.Alumnos[i]));
-                    
-                }
+                this.ActualizarListadoAlumnos();
             }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             int order = this.comboBox1.SelectedIndex;
+
+            switch(order)
+            {
+                case 0:
+                    miCatedra.Alumnos.Sort(Alumno.OrdenarPorLegajoAsc);
+                    break;
+                case 1:
+                    miCatedra.Alumnos.Sort(Alumno.OrdenarPorLegajoDes);
+                    break;
+                case 2:
+                    miCatedra.Alumnos.Sort(Alumno.OrdenarPorApellidoAsc);
+                    break;
+                case 3:
+                    miCatedra.Alumnos.Sort(Alumno.OrdenarPorApellidosDes);
+                    break;
+            }
+            ActualizarListadoAlumnos();
+        }
+
+        private void ActualizarListadoAlumnos()
+        {
+            this.listBox1.Items.Clear();
+            for (int i = 0; i < miCatedra.Alumnos.Count; i++)
+            {
+                //this.listBox1.Items.Add(miCatedra.ToString());
+                this.listBox1.Items.Add(Alumno.Mostrar(miCatedra.Alumnos[i]));
+
+            }
+        }
+
+        private void btnCalificar_Click(object sender, EventArgs e)
+        {
+            FrmAlumnoCalificado ac = new FrmAlumnoCalificado();
+            ac.ShowDialog();
+            bool student = miCatedra + ac.AlumnoCalificado;
+            if(DialogResult == DialogResult.OK)
+            {
+                this.listBox2.Items.Clear();
+                for(int i = 0; i < miCatedra.AlumnosCalificados.Count; i++)
+                {
+                    this.listBox2.Items.Add(AlumnoCalificado.Mostrar(miCatedra.AlumnosCalificados[i]));
+                    this.listBox1.Items.Clear();
+                }
+            }
+
         }
     }
 }

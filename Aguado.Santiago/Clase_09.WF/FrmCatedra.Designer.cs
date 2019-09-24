@@ -98,6 +98,7 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "Calificar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnCalificar_Click);
             // 
             // groupBox2
             // 

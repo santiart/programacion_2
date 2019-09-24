@@ -49,6 +49,7 @@
     <Compile Include="AlumnoCalificado.cs" />
     <Compile Include="Catedra.cs" />
     <Compile Include="ETipoExamen.cs" />
+    <Compile Include="ETipoOrdenamiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

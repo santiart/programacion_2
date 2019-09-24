@@ -31,7 +31,7 @@ namespace Clase_09.WF
             this.comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        protected virtual void btnAceptar_Click(object sender, EventArgs e)
         {
             string name;
             string surname;
@@ -45,12 +45,12 @@ namespace Clase_09.WF
 
             alumno = new Alumno(name, surname,int.Parse(legajo), test);
             this.DialogResult = DialogResult.OK;
-
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        protected void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
     }
 }

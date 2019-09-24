@@ -64,26 +64,30 @@ namespace Clase_09
             return !(a == b);
         }
 
-        public int OrdenarPorApellidoAsc(Alumno a,Alumno b)
+        public static int OrdenarPorApellidoAsc(Alumno a,Alumno b)
         {
             return String.Compare(a.apellido, b.apellido);
         }
 
-        public int OrdenarPorApellidosDes(Alumno a, Alumno b)
+        public static int OrdenarPorApellidosDes(Alumno a, Alumno b)
         {
-            return -1 * this.OrdenarPorApellidoAsc(a, b);
+            return -1 * OrdenarPorApellidoAsc(a, b);
         }
 
-        public int OrdenarPorLegajoAsc(Alumno a, Alumno b)
+        public static int OrdenarPorLegajoAsc(Alumno a, Alumno b)
         {
             return String.Compare(a.legajo.ToString(), b.legajo.ToString());
         }
 
-        public int OrdenarPorLegajoDes(Alumno a, Alumno b)
+        public static int OrdenarPorLegajoDes(Alumno a, Alumno b)
         {
-            return -1 * this.OrdenarPorLegajoAsc(a, b);
+            return -1 * OrdenarPorLegajoAsc(a, b);
         }
 
+        public override string ToString()
+        {
+            return Alumno.Mostrar(this);
+        }
 
     }
 }

@@ -5,3 +5,10 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.dll.config
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.pdb
