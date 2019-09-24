@@ -13,7 +13,7 @@ namespace Clase_09.WF
 {
     public partial class FrmAlumno : Form
     {
-        Clase_09.Alumno alumno;
+        private Alumno alumno;
 
         public Alumno Alumno
         {
@@ -41,10 +41,9 @@ namespace Clase_09.WF
             name = this.textBox1.Text;
             surname = this.textBox2.Text;
             legajo = this.textBox3.Text;
-            test =(EtipoExamen) this.comboBox1.SelectedItem;
+            test = (EtipoExamen) this.comboBox1.SelectedItem;
 
-            this.alumno = new Alumno(name, surname,int.Parse(legajo), test);
-            //MessageBox.Show(this.alumno.ToString());
+            alumno = new Alumno(name, surname,int.Parse(legajo), test);
             this.DialogResult = DialogResult.OK;
 
         }

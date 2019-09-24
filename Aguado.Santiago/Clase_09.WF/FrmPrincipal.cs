@@ -22,11 +22,6 @@ namespace Clase_09.WF
             this.WindowState = FormWindowState.Maximized;
         }
 
-        private void crearToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void catedraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCatedra catedra = new FrmCatedra();

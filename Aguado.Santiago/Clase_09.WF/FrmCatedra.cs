@@ -13,36 +13,37 @@ namespace Clase_09.WF
 {
     public partial class FrmCatedra : Form
     {
-        Catedra miCatedra;
-        private List<AlumnoCalificado> alumnoCalificados;
+        private Catedra miCatedra;
+        private List<AlumnoCalificado> alumnoCalificado;
 
         public FrmCatedra()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
             this.miCatedra = new Catedra();
-            this.alumnoCalificados = new List<AlumnoCalificado>();
-            //this.groupBox1.Visible = false;
-            //this.groupBox2.Visible = false;
+            this.alumnoCalificado = new List<AlumnoCalificado>();
         }
 
-
-
-        private void FrmCatedra_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             FrmAlumno alumno = new FrmAlumno();
             alumno.ShowDialog();
-          //this.miCatedra += alumno.Alumno;
+            bool student = miCatedra + alumno.Alumno; 
             if(alumno.DialogResult == DialogResult.OK )
             {
                 this.listBox1.Items.Clear();
-                this.listBox1.Items.Add(alumno);
+                for(int i = 0; i < miCatedra.Alumnos.Count; i++)
+                {
+                    this.listBox1.Items.Add(Alumno.Mostrar(miCatedra.Alumnos[i]));
+                    
+                }
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int order = this.comboBox1.SelectedIndex;
         }
     }
 }
