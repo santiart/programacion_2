@@ -56,18 +56,17 @@ namespace Clase_09
 
         public static int operator |(Alumno a, Catedra c)
         {
-            //int index = -1;
+            int index = -1;
 
-            //for (int i = 0; i <c.Alumnos.Count; i++)
-            //{
-            //    if (c.Alumnos[i] == a)
-            //    {
-            //        index = i;
-            //        break;
-            //    }
-            //}
-            //return index;
-            return c.Alumnos.IndexOf(a);
+            for (int i = 0; i < c.Alumnos.Count; i++)
+            {
+                if (c.Alumnos[i] == a)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
         }
 
         public static bool operator -(Catedra c, Alumno a)

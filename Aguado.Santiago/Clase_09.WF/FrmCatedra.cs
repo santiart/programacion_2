@@ -73,25 +73,32 @@ namespace Clase_09.WF
             {
                 //this.listBox1.Items.Add(miCatedra.ToString());
                 this.listBox1.Items.Add(Alumno.Mostrar(miCatedra.Alumnos[i]));
+            }
 
+            this.listBox2.Items.Clear();
+            for(int i = 0; i < alumnoCalificado.Count; i++)
+            {
+                this.listBox2.Items.Add(alumnoCalificado[i].Mostrar());
             }
         }
 
         private void btnCalificar_Click(object sender, EventArgs e)
         {
-            FrmAlumnoCalificado ac = new FrmAlumnoCalificado();
-            ac.ShowDialog();
-            bool student = miCatedra + ac.AlumnoCalificado;
-            if(DialogResult == DialogResult.OK)
+            int index = listBox1.SelectedIndex;
+            if (index >= 0)
             {
-                this.listBox2.Items.Clear();
-                for(int i = 0; i < miCatedra.AlumnosCalificados.Count; i++)
+                FrmAlumnoCalificado ac = new FrmAlumnoCalificado(miCatedra.Alumnos[index]);
+
+                ac.ShowDialog();
+
+                if (DialogResult == DialogResult.OK)
                 {
-                    this.listBox2.Items.Add(AlumnoCalificado.Mostrar(miCatedra.AlumnosCalificados[i]));
-                    this.listBox1.Items.Clear();
+                    miCatedra.Alumnos.RemoveAt(index);
+                    alumnoCalificado.Add(ac.AlumnoCalificado);
+
+                    ActualizarListadoAlumnos();
                 }
             }
-
         }
     }
 }
