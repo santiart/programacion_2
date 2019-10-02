@@ -65,13 +65,13 @@ namespace CentralitaPolimorfismo
             return !(uno == dos);
         }
 
-        public int OrdenarPorDuracion(Llamada uno, Llamada dos)
+        public static int OrdenarPorDuracion(Llamada uno, Llamada dos)
         {
-            int retorno = -1;
+            int retorno = 1;
 
             if(uno.Duracion > dos.Duracion)
             {
-                retorno = 1;
+                retorno = -1;
             }
             else if(uno.Duracion == dos.Duracion)
             {

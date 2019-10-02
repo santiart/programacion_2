@@ -12,14 +12,12 @@ namespace CentralitaPolimorfismo
 
         public override float CostoLlamada
         {
-            get { return this._costo; }
+            get { return this.CalcularCosto(); }
         }
 
         public float CalcularCosto()
         {
-            float retorno;
-            retorno = Duracion * CostoLlamada;
-            return retorno;
+            return base.Duracion * this._costo;
         }
 
         public override bool Equals(object obj)
