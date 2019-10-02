@@ -106,7 +106,6 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(299, 95);
             this.listBox1.TabIndex = 7;
-            this.listBox1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 

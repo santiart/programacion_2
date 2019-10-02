@@ -19,12 +19,6 @@ namespace Clase_04.Windows_Forms
         }
 
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-           //preguntar
-            
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             int entero = int.Parse(this.textBox1.Text);

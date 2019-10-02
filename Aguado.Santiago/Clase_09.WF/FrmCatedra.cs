@@ -35,7 +35,7 @@ namespace Clase_09.WF
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmAlumno alumno = new FrmAlumno();
+             FrmAlumno alumno = new FrmAlumno();
             alumno.ShowDialog();
             bool student = miCatedra + alumno.Alumno; 
             if(alumno.DialogResult == DialogResult.OK )
@@ -79,6 +79,7 @@ namespace Clase_09.WF
             for(int i = 0; i < alumnoCalificado.Count; i++)
             {
                 this.listBox2.Items.Add(alumnoCalificado[i].Mostrar());
+                //this.listBox2.Items.Add(AlumnoCalificado.Mostrar(miCatedra.AlumnosCalificados[i]));
             }
         }
 
@@ -95,8 +96,7 @@ namespace Clase_09.WF
                 {
                     miCatedra.Alumnos.RemoveAt(index);
                     alumnoCalificado.Add(ac.AlumnoCalificado);
-
-                    ActualizarListadoAlumnos();
+                    this.ActualizarListadoAlumnos();
                 }
             }
         }

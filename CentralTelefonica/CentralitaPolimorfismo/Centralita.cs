@@ -36,6 +36,41 @@ namespace CentralitaPolimorfismo
             this._listaDeLlamadas.Add(nuevaLlamada);
         }
 
+        public static bool operator ==(Centralita central, Llamada nuevaLlamada)
+        {
+            bool retorno = false;
+            if(!object.Equals(central,null) && !object.Equals(nuevaLlamada,null))
+            {
+                for(int i = 0; i < central.llamadas.Count; i++)
+                {
+                    if(central.llamadas[i] == nuevaLlamada)
+                    {
+                        retorno = true;
+                    }
+                }
+            }
+            return retorno;
+        }
+
+        public static bool operator !=(Centralita central, Llamada nuevaLlamada)
+        {
+            return !(central == nuevaLlamada);
+        }
+
+        public static Centralita operator +(Centralita central, Llamada nuevaLlamada)
+        {
+            if(central != nuevaLlamada)
+            {
+                central.llamadas.Add(nuevaLlamada);
+                return central;
+            }
+            else
+            {
+                Console.WriteLine("La llamada ya esta registrada...");
+                return central;
+            }
+        }
+
         private float CalcularGanancia(TipoLlamada tipo)
         {
             float result = 0;

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CentralitaWindowsForms</RootNamespace>
     <AssemblyName>CentralitaWindowsForms</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,6 +57,18 @@
     <Compile Include="Llamada.Designer.cs">
       <DependentUpon>Llamada.cs</DependentUpon>
     </Compile>
+    <Compile Include="LlamadaLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LlamadaLocal.Designer.cs">
+      <DependentUpon>LlamadaLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LlamadaProvincial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LlamadaProvincial.Designer.cs">
+      <DependentUpon>LlamadaProvincial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCentralita.resx">
@@ -63,6 +76,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Llamada.resx">
       <DependentUpon>Llamada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LlamadaLocal.resx">
+      <DependentUpon>LlamadaLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LlamadaProvincial.resx">
+      <DependentUpon>LlamadaProvincial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,6 +91,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -85,6 +105,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CentralTelefonica\CentralitaPolimorfismo\CentralitaPolimorfismo.csproj">
+      <Project>{075dec25-94c6-4584-bb6c-1ff67cb290de}</Project>
+      <Name>CentralitaPolimorfismo</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

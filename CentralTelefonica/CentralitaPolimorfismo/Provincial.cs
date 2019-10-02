@@ -64,5 +64,7 @@ namespace CentralitaPolimorfismo
         {
             return this.Mostrar();
         }
+
+        public override int GetHashCode() { return 0; }
     }
 }

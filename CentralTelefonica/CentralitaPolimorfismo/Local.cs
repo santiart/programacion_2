@@ -39,7 +39,7 @@ namespace CentralitaPolimorfismo
             this._costo = costo;
         }
 
-        public string Mostrar()
+        public new string Mostrar()
         {
             StringBuilder retorno = new StringBuilder(base.Mostrar() + "Costo de La Llamada: " + this.CostoLlamada.ToString());
             return retorno.ToString();
@@ -49,5 +49,7 @@ namespace CentralitaPolimorfismo
         {
             return this.Mostrar();
         }
+
+        public override int GetHashCode() { return 0; }
     }
 }
