@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +13,14 @@ namespace CentralitaWindowsForms
 {
     public partial class LlamadaProvincial : Llamada
     {
+
+        private Provincial newProvintialCall;
+
+        public Provincial provincial
+        {
+          get { return this.newProvintialCall; }
+        }
+
         public LlamadaProvincial()
         {
             InitializeComponent();
@@ -31,13 +39,14 @@ namespace CentralitaWindowsForms
             string duracion = this.txtDuracion.Text;
             Franja miFranja = (Franja)this.comboBox1.SelectedItem;
 
-            Provincial llamadaProvincial = new Provincial(nroOrigen, miFranja,float.Parse(duracion), nroDestino);
+            newProvintialCall = new Provincial(nroOrigen, miFranja,float.Parse(duracion), nroDestino);
             this.DialogResult = DialogResult.OK;
+            base.btnAceptar_Click(sender, e);
         }
 
         protected override void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-    }
+  }
 }

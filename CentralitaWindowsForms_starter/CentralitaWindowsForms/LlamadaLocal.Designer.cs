@@ -1,4 +1,4 @@
-﻿namespace CentralitaWindowsForms
+namespace CentralitaWindowsForms
 {
     partial class LlamadaLocal
     {
@@ -32,6 +32,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // btnAceptar
+            // 
+            // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(12, 185);
@@ -57,6 +60,11 @@
             this.Controls.Add(this.textBox3);
             this.Name = "LlamadaLocal";
             this.Text = "LlamadaLocal";
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
+            this.Controls.SetChildIndex(this.textBox1, 0);
+            this.Controls.SetChildIndex(this.textBox2, 0);
+            this.Controls.SetChildIndex(this.txtDuracion, 0);
             this.Controls.SetChildIndex(this.textBox3, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.ResumeLayout(false);

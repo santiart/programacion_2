@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -92,7 +92,7 @@ namespace Clase_09.WF
 
                 ac.ShowDialog();
 
-                if (DialogResult == DialogResult.OK)
+                if (ac.DialogResult == DialogResult.OK)
                 {
                     miCatedra.Alumnos.RemoveAt(index);
                     alumnoCalificado.Add(ac.AlumnoCalificado);

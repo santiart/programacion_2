@@ -1,4 +1,4 @@
-﻿namespace CentralitaWindowsForms
+namespace CentralitaWindowsForms
 {
     partial class LlamadaProvincial
     {
@@ -32,6 +32,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // btnAceptar
+            // 
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -58,6 +61,11 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "LlamadaProvincial";
             this.Text = "LlamadaProvincial";
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
+            this.Controls.SetChildIndex(this.textBox1, 0);
+            this.Controls.SetChildIndex(this.textBox2, 0);
+            this.Controls.SetChildIndex(this.txtDuracion, 0);
             this.Controls.SetChildIndex(this.comboBox1, 0);
             this.Controls.SetChildIndex(this.label4, 0);
             this.ResumeLayout(false);

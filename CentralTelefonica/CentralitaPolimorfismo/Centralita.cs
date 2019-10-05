@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -122,9 +122,12 @@ namespace CentralitaPolimorfismo
             return _listaDeLlamadas.ToString();
         }
 
-        public void OrdenarLlamadas()
+        public void OrdenarLlamadas(byte i)
         {
-            this.llamadas.Sort(Llamada.OrdenarPorDuracion);
+            if (i == 1)
+              this.llamadas.Sort(Llamada.OrdenarPorDuracionAsc);
+            else
+              this.llamadas.Sort(Llamada.OrdenarPorDuracionDesc);
         }
 
     }

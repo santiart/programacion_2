@@ -73,6 +73,7 @@
             this.cboOrdenamiento.Name = "cboOrdenamiento";
             this.cboOrdenamiento.Size = new System.Drawing.Size(190, 21);
             this.cboOrdenamiento.TabIndex = 4;
+            this.cboOrdenamiento.SelectedIndexChanged += new System.EventHandler(this.cboOrdenamiento_SelectedIndexChanged);
             // 
             // lblLabel
             // 

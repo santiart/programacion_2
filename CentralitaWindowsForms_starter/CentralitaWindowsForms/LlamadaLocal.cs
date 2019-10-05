@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,16 +13,17 @@ namespace CentralitaWindowsForms
 {
     public partial class LlamadaLocal : Llamada
     {
-        //private LlamadaLocal llamadalocal;
+        private Local newLocalCall;
 
-        //public LlamadaLocal LlamadLocal
-        //{
-        //    get {return this.llamadalocal; }
-        //}
+        public Local local
+        {
+          get { return this.newLocalCall; }
+        }
 
         public LlamadaLocal()
         {
             InitializeComponent();
+
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
@@ -33,13 +34,17 @@ namespace CentralitaWindowsForms
             string duracion = this.txtDuracion.Text;
             string costo = this.textBox3.Text;
 
-            Local llamadalocal = new Local(nroOrigen, nroDestino, float.Parse(duracion), float.Parse(costo));
+            this.newLocalCall = new Local(nroOrigen, nroDestino, float.Parse(duracion), float.Parse(costo));
+
             this.DialogResult = DialogResult.OK;
+
+            base.btnAceptar_Click(sender, e);
         }
 
         protected override void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-    }
+
+  }
 }
