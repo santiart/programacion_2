@@ -24,7 +24,7 @@ namespace Clase_09.WF
 
         private void catedraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmCatedra catedra = new FrmCatedra();
+                 FrmCatedra catedra = new FrmCatedra();
             catedra.MdiParent = this;
             catedra.Show();
         }

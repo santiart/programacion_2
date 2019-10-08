@@ -101,6 +101,17 @@ namespace Clase_05.Entidades
         {
             return ink.Mostrar();
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
     }
 
 
@@ -168,5 +179,14 @@ namespace Clase_05.Entidades
             return p;
         }
 
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
     }
 }

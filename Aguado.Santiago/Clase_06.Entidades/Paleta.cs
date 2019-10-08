@@ -136,5 +136,15 @@ namespace Clase_06.Entidades
             get { return this.colores[index]; }
 
         }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }
