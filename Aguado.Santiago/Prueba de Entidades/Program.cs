@@ -31,9 +31,9 @@ namespace Prueba_de_Entidades
             m1.CalificarAlumnos();
             m2.CalificarAlumnos();
             Console.WriteLine((string)m1);
-            Console.WriteLine("Promedio gral. :0:#,###.00}", (float)m1);
+            Console.WriteLine("Promedio gral. :{0:#,###.00}", (float)m1);
             Console.WriteLine((string)m2);
-            Console.WriteLine("Promedio gral. :0:#,###.00}", (float)m2);
+            Console.WriteLine("Promedio gral. :{0:#,###.00}", (float)m2);
             Console.ReadLine();
 
         }

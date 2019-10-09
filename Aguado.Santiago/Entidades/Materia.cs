@@ -28,7 +28,7 @@ namespace Entidades
         {
             foreach(Alumno a in this.Alumnos)
             {
-                a.Nota = Materia._notaParaUnAlumno.Next(1, 10);
+                a.Nota =_notaParaUnAlumno.Next(1, 10);
             }
         }
 
@@ -52,11 +52,9 @@ namespace Entidades
         public static implicit operator Materia(EMateria nombre)
         {
             Materia m = new Materia();
-            if(m.Nombre == nombre)
-            {
-                return m;
-            }
-            return null;
+            m.Nombre = nombre;
+            
+            return m;
         }
 
         private Materia()
@@ -76,7 +74,15 @@ namespace Entidades
 
         private string Mostrar()
         {
-            return this._alumnos.ToString();
+            StringBuilder show = new StringBuilder();
+            show.AppendFormat("Materia: {0} \n", this.Nombre.ToString());
+            show.AppendLine("*******************************************");
+            show.AppendLine("***************A L U M N O S***************");
+            foreach(Alumno a in this.Alumnos)
+            {
+                show.AppendFormat("{0}\n", Alumno.Mostrar(a));
+            }
+            return show.ToString();
         }
 
         public static bool operator ==(Materia m, Alumno a)
@@ -85,9 +91,12 @@ namespace Entidades
 
             if(!object.Equals(m,null) && !object.Equals(a,null))
             {
-                if(m.Alumnos.Contains(a))
+                foreach(Alumno alumno in m.Alumnos)
                 {
-                    retorno = true;
+                    if(a == alumno)
+                    {
+                        retorno = true;
+                    }
                 }
             }
             return retorno;

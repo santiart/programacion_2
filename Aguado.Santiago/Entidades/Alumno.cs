@@ -37,26 +37,41 @@ namespace Entidades
             set { this._nota = value; }
         }
 
-        public Alumno(int legajo, string nombre, string apellido)
+        public Alumno(int legajo, string nombre, string apellido): this(nombre,apellido)
         {
-            this._apellido = apellido;
-            this._legajo = legajo;
-            this._nombre = nombre;
+            this.Legajo = legajo;
         }
 
-        public Alumno(int legajo, string nombre, string apellido, float nota):this(legajo,nombre,apellido)
+        public Alumno(int legajo):this()
         {
-            this._nota = nota;
+            this.Legajo = legajo;
         }
 
+        public Alumno(string nombre, string apellido): this(0)
+        {
+            this.Apellido = apellido;
+            this.Nombre = nombre;
+        }
 
+        public Alumno(float nota):this()
+        {
+            this.Nota = nota;
+        }
+
+        public Alumno()
+        {
+            this.Apellido = "";
+            this.Legajo = 0;
+            this.Nombre = "";
+            this.Nota = 0;
+        }
 
         private string Mostrar()
         {
             return this._nombre + "," + this._apellido + "-" + "Legajo: " + this._legajo.ToString()+ "-" + "Nota: " + this._nota.ToString();
         }
 
-        public string Mostrar(Alumno alumno)
+        public static string Mostrar(Alumno alumno)
         {
             return alumno.Mostrar();
         }
