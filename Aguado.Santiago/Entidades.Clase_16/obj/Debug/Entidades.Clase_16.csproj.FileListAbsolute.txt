@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\bin\Debug\Entidades.Clase_16.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\bin\Debug\Entidades.Clase_16.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.pdb

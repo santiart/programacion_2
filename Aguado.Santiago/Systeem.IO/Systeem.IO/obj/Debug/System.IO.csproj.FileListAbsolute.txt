@@ -1,0 +1,7 @@
+D:\VisualStudio\Systeem.IO\Systeem.IO\bin\Debug\Systeem.IO.exe.config
+D:\VisualStudio\Systeem.IO\Systeem.IO\bin\Debug\Systeem.IO.exe
+D:\VisualStudio\Systeem.IO\Systeem.IO\bin\Debug\Systeem.IO.pdb
+D:\VisualStudio\Systeem.IO\Systeem.IO\obj\Debug\System.IO.csprojAssemblyReference.cache
+D:\VisualStudio\Systeem.IO\Systeem.IO\obj\Debug\System.IO.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Systeem.IO\Systeem.IO\obj\Debug\Systeem.IO.exe
+D:\VisualStudio\Systeem.IO\Systeem.IO\obj\Debug\Systeem.IO.pdb
