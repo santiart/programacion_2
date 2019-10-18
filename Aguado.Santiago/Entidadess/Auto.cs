@@ -30,7 +30,7 @@ namespace Entidadess
         public override bool Equals(object obj)
         {
             bool retorno = false;
-            if(obj is Auto)
+            if(obj is Auto && obj == this)
             {
                 retorno = true;
             }

@@ -24,17 +24,23 @@ namespace Entidades.Clase_16
 
         private int GetIndice(Cocina c)
         {
-            int index = -1;
+            int index = 0;
 
-            for(int i = 0; i < this._lista.Count; i++)
+            //for(int i = 0; i < this._lista.Count; i++)
+            //{
+            //    if(this._lista[i] == c)
+            //    {
+            //        index = i;
+            //        break;
+            //    }
+            //}
+            foreach(Cocina k in this._lista)
             {
-                if(this._lista[i] == c)
-                {
-                    index = i;
-                    break;
-                }
+                if (c == k)
+                    return index;
+                index++;
             }
-            return index;
+            return -1;
         }
 
         public static bool operator -(DepositoDeCocinas d, Cocina c)

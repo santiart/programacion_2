@@ -37,7 +37,7 @@ namespace Entidades.Clase_16
         public override bool Equals(object obj)
         {
             bool retorno = false;
-            if(obj is Cocina)
+            if(obj is Cocina && obj == this)
             {
                 retorno = true;
             }

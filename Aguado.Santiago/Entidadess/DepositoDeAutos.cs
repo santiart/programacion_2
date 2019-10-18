@@ -24,16 +24,22 @@ namespace Entidadess
 
         private int GetIndice(Auto a)
         {
-            int index = -1;
-            for(int i = 0; i < _lista.Count; i++)
+            int index = 0;
+            //for(int i = 0; i < _lista.Count; i++)
+            //{
+            //    if(this._lista[i] == a)
+            //    {
+            //        index = i;
+            //        break;
+            //    }
+            //}
+            foreach(Auto c in this._lista)
             {
-                if(this._lista[i] == a)
-                {
-                    index = i;
-                    break;
-                }
+                if(c == a)
+                    return index;
+                index++;
             }
-            return index;
+            return -1;
         }
 
         public static bool operator +(DepositoDeAutos d, Auto a)

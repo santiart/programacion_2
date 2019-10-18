@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\T
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Test Generico.exe.config
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Test Generico.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Test Generico.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Clases Genericas.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Entidades.Clase_16.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Entidadess.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Clases Genericas.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Entidades.Clase_16.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\bin\Debug\Entidadess.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.csproj.CopyComplete
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.exe
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Test Generico\obj\Debug\Test Generico.pdb

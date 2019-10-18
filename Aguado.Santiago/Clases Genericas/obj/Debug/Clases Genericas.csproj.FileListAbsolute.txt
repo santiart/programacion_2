@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debu
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.dll
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\bin\Debug\Clases Genericas.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\bin\Debug\Clases Genericas.pdb
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csprojAssemblyReference.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.dll
+C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.pdb
