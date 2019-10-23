@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\bin\Debug\Clase_17.Entidades.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\bin\Debug\Clase_17.Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\obj\Debug\Clase_17.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\obj\Debug\Clase_17.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\obj\Debug\Clase_17.Entidades.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Entidades\obj\Debug\Clase_17.Entidades.pdb

@@ -8,3 +8,4 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\bin\Debu
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase_16\obj\Debug\Entidades.Clase_16.csprojAssemblyReference.cache
