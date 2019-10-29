@@ -1,0 +1,10 @@
+D:\VisualStudio\ClassLibrary1\Clase_20\bin\Debug\Clase_20.exe.config
+D:\VisualStudio\ClassLibrary1\Clase_20\bin\Debug\Clase_20.exe
+D:\VisualStudio\ClassLibrary1\Clase_20\bin\Debug\Clase_20.pdb
+D:\VisualStudio\ClassLibrary1\Clase_20\bin\Debug\ClassLibrary1.dll
+D:\VisualStudio\ClassLibrary1\Clase_20\bin\Debug\ClassLibrary1.pdb
+D:\VisualStudio\ClassLibrary1\Clase_20\obj\Debug\Clase_20.csprojAssemblyReference.cache
+D:\VisualStudio\ClassLibrary1\Clase_20\obj\Debug\Clase_20.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ClassLibrary1\Clase_20\obj\Debug\Clase_20.csproj.CopyComplete
+D:\VisualStudio\ClassLibrary1\Clase_20\obj\Debug\Clase_20.exe
+D:\VisualStudio\ClassLibrary1\Clase_20\obj\Debug\Clase_20.pdb

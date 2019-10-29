@@ -1,0 +1,9 @@
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\bin\Debug\Clase_20.Test_2.exe.config
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\bin\Debug\Clase_20.Test_2.exe
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\bin\Debug\Clase_20.Test_2.pdb
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\bin\Debug\ClassLibrary1.dll
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\bin\Debug\ClassLibrary1.pdb
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\obj\Debug\Clase_20.Test_2.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\obj\Debug\Clase_20.Test_2.csproj.CopyComplete
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\obj\Debug\Clase_20.Test_2.exe
+D:\VisualStudio\ClassLibrary1\Clase_20.Test_2\obj\Debug\Clase_20.Test_2.pdb

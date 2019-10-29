@@ -1,0 +1,6 @@
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\obj\Debug\Clase_20.Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\obj\Debug\Clase_20.Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\VisualStudio\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
