@@ -35,7 +35,7 @@ namespace Clase_09.WF
 
         private void button1_Click(object sender, EventArgs e)
         {
-             FrmAlumno alumno = new FrmAlumno();
+            FrmAlumno alumno = new FrmAlumno();
             alumno.ShowDialog();
             bool student = miCatedra + alumno.Alumno; 
             if(alumno.DialogResult == DialogResult.OK )
