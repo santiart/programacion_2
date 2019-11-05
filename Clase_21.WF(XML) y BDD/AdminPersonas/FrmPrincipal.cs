@@ -17,6 +17,9 @@ namespace AdminPersonas
 {
     public partial class FrmPrincipal : Form
     {
+        SqlConnection sql;
+
+        DataTable dt ;
 
         private List<Persona> lista;
 
@@ -28,6 +31,9 @@ namespace AdminPersonas
             this.WindowState = FormWindowState.Maximized;
 
             this.lista = new List<Persona>();
+
+            this.dt = new DataTable("Personas");
+            CrearDataTable();
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -84,9 +90,9 @@ namespace AdminPersonas
 
             frm.StartPosition = FormStartPosition.CenterScreen;
 
-            this.lista = frm.ListaPersonas;
-
             frm.Show();
+
+            this.lista = frm.ListaPersonas;
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -96,33 +102,92 @@ namespace AdminPersonas
 
         private void crearBaseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //try
+            //{
+            //    SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexion);
+
+            //    sql.Open();
+            //    //MessageBox.Show("Se Conecto");
+
+            //    SqlCommand sqlcomm = new SqlCommand();
+
+            //    sqlcomm.Connection = sql;
+
+            //    sqlcomm.CommandType = CommandType.Text;
+
+            //    sqlcomm.CommandText =
+            //        "SELECT TOP 1000 [id] ,[nombre] ,[apellido] ,[edad] FROM[personas_bd].[dbo].[personas]";
+
+            //    SqlDataReader dataReader = sqlcomm.ExecuteReader();
+
+            //    //while (dataReader.Read() != false)
+            //    //{
+            //    //    object o = dataReader[0].ToString();
+            //    //    object n = dataReader["nombre"].ToString();
+            //    //    object a = dataReader["apellido"].ToString();
+            //    //    MessageBox.Show("ID: " + o.ToString(),n.ToString() +" " + a.ToString());
+            //    //}
+
+            //    dataReader.Close();
+            //    sql.Close();
+            //}
+            //catch(Exception exc)
+            //{
+            //    MessageBox.Show(exc.Message);
+            //}
+        }
+
+        private void traerTodosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            sql = new SqlConnection(Properties.Settings.Default.conexion);
+            sql.Open();
+
+            SqlCommand command = new SqlCommand();
+            command.Connection = sql;
+
+            command.CommandType = CommandType.Text;
+
+            command.CommandText = "SELECT * FROM Personas";
+
+            SqlDataReader dataReader = command.ExecuteReader();
+
+            while (dataReader.Read() != false)
+            {
+                this.lista.Add(new Persona(dataReader["nombre"].ToString(), dataReader["apellido"].ToString(), int.Parse(dataReader["edad"].ToString())));
+            }
+
+            dataReader.Close();
+            sql.Close();
+        }
+
+        private void ConectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           try
+            {
+                sql = new SqlConnection(Properties.Settings.Default.conexion);
+                sql.Open();
+                sql.Close();
+                MessageBox.Show("se conecto y se fue");
+            }
+            catch
+            {
+                MessageBox.Show("juiste");
+            }
+        }
+
+        private void CrearDataTable()
+        {
             try
             {
-                SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexion);
-
-                sql.Open();
-                //MessageBox.Show("Se Conecto");
-
-                SqlCommand sqlcomm = new SqlCommand();
-
-                sqlcomm.Connection = sql;
-
-                sqlcomm.CommandType = CommandType.Text;
-
-                sqlcomm.CommandText =
-                    "SELECT TOP 1000 [id] ,[nombre] ,[apellido] ,[edad] FROM[personas_bd].[dbo].[personas]";
-
-                SqlDataReader dataReader = sqlcomm.ExecuteReader();
-
-                while (dataReader.Read() != false)
-                {
-                    object o = dataReader[0].ToString();
-                    object n = dataReader["nombre"].ToString();
-                    MessageBox.Show(o.ToString(),n.ToString());
-                }
-
-                dataReader.Close();
-                sql.Close();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = new SqlConnection(Properties.Settings.Default.conexion);
+                cmd.Connection.Open();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT * FROM Personas";
+                SqlDataReader dr = cmd.ExecuteReader();
+                this.dt.Load(dr);
+                dr.Close();
+                cmd.Connection.Close();
             }
             catch(Exception exc)
             {

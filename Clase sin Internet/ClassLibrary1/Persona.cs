@@ -55,7 +55,5 @@ namespace Clase_20.Entidades
 
             return sb.ToString();
         }
-
-
     }
 }

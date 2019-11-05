@@ -35,6 +35,8 @@
             this.visualizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearBaseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ConectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.traerTodosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,10 +92,27 @@
             // 
             // crearBaseDeDatosToolStripMenuItem
             // 
+            this.crearBaseDeDatosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ConectarToolStripMenuItem,
+            this.traerTodosToolStripMenuItem1});
             this.crearBaseDeDatosToolStripMenuItem.Name = "crearBaseDeDatosToolStripMenuItem";
             this.crearBaseDeDatosToolStripMenuItem.Size = new System.Drawing.Size(34, 20);
             this.crearBaseDeDatosToolStripMenuItem.Text = "BD";
             this.crearBaseDeDatosToolStripMenuItem.Click += new System.EventHandler(this.crearBaseDeDatosToolStripMenuItem_Click);
+            // 
+            // ConectarToolStripMenuItem
+            // 
+            this.ConectarToolStripMenuItem.Name = "ConectarToolStripMenuItem";
+            this.ConectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ConectarToolStripMenuItem.Text = "Conectar";
+            this.ConectarToolStripMenuItem.Click += new System.EventHandler(this.ConectarToolStripMenuItem_Click);
+            // 
+            // traerTodosToolStripMenuItem1
+            // 
+            this.traerTodosToolStripMenuItem1.Name = "traerTodosToolStripMenuItem1";
+            this.traerTodosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.traerTodosToolStripMenuItem1.Text = "Traer Todos";
+            this.traerTodosToolStripMenuItem1.Click += new System.EventHandler(this.traerTodosToolStripMenuItem1_Click);
             // 
             // FrmPrincipal
             // 
@@ -120,6 +139,8 @@
         private System.Windows.Forms.ToolStripMenuItem visualizarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crearBaseDeDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ConectarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem traerTodosToolStripMenuItem1;
     }
 }
 

@@ -4,3 +4,9 @@ D:\VisualStudio\2019.BaseDeDatos\Entidades\obj\Debug\Entidades.csprojAssemblyRef
 D:\VisualStudio\2019.BaseDeDatos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\VisualStudio\2019.BaseDeDatos\Entidades\obj\Debug\Entidades.dll
 D:\VisualStudio\2019.BaseDeDatos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\Entidades\obj\Debug\Entidades.pdb
