@@ -37,6 +37,7 @@
             this.crearBaseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ConectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.traerTodosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.visualizarTablasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +47,8 @@
             this.xMLToolStripMenuItem,
             this.visualizarToolStripMenuItem,
             this.salirToolStripMenuItem,
-            this.crearBaseDeDatosToolStripMenuItem});
+            this.crearBaseDeDatosToolStripMenuItem,
+            this.visualizarTablasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -103,16 +105,23 @@
             // ConectarToolStripMenuItem
             // 
             this.ConectarToolStripMenuItem.Name = "ConectarToolStripMenuItem";
-            this.ConectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ConectarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.ConectarToolStripMenuItem.Text = "Conectar";
             this.ConectarToolStripMenuItem.Click += new System.EventHandler(this.ConectarToolStripMenuItem_Click);
             // 
             // traerTodosToolStripMenuItem1
             // 
             this.traerTodosToolStripMenuItem1.Name = "traerTodosToolStripMenuItem1";
-            this.traerTodosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.traerTodosToolStripMenuItem1.Size = new System.Drawing.Size(137, 22);
             this.traerTodosToolStripMenuItem1.Text = "Traer Todos";
             this.traerTodosToolStripMenuItem1.Click += new System.EventHandler(this.traerTodosToolStripMenuItem1_Click);
+            // 
+            // visualizarTablasToolStripMenuItem
+            // 
+            this.visualizarTablasToolStripMenuItem.Name = "visualizarTablasToolStripMenuItem";
+            this.visualizarTablasToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
+            this.visualizarTablasToolStripMenuItem.Text = "Visualizar Tablas";
+            this.visualizarTablasToolStripMenuItem.Click += new System.EventHandler(this.visualizarTablasToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -141,6 +150,7 @@
         private System.Windows.Forms.ToolStripMenuItem crearBaseDeDatosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ConectarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem traerTodosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem visualizarTablasToolStripMenuItem;
     }
 }
 

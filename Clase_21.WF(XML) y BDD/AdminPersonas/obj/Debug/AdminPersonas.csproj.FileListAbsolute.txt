@@ -58,3 +58,4 @@ C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\AdminPersonas\obj\
 C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\AdminPersonas\obj\Debug\AdminPersonas.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\AdminPersonas\obj\Debug\AdminPersonas.exe
 C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\AdminPersonas\obj\Debug\AdminPersonas.pdb
+C:\Users\alumno\Desktop\programacion_2\Clase_21.WF(XML) y BDD\AdminPersonas\obj\Debug\AdminPersonas.FrmVisorDataTable.resources

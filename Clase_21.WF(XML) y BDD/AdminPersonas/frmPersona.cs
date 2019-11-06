@@ -14,6 +14,7 @@ namespace AdminPersonas
     public partial class frmPersona : Form
     {
         private Persona miPersona;
+        private Persona persona;
 
         public Persona Persona
         {
@@ -23,6 +24,11 @@ namespace AdminPersonas
         public frmPersona()
         {
             InitializeComponent();
+        }
+
+        public frmPersona(Persona persona)
+        {
+            this.persona = persona;
         }
 
         protected void btnAceptar_Click(object sender, EventArgs e)

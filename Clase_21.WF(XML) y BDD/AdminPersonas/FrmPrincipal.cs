@@ -34,6 +34,22 @@ namespace AdminPersonas
 
             this.dt = new DataTable("Personas");
             CrearDataTable();
+
+            SqlConnection sql = new SqlConnection(Properties.Settings.Default.conexion);
+            sql.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = sql;
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "SELECT TOP 1000[id] ,[nombre] ,[apellido] ,[edad] FROM[personas_bd].[dbo].[personas]";
+
+            SqlDataAdapter dataA = new SqlDataAdapter(cmd.CommandText, sql);
+            dataA.Fill(dt);
+            dataA.InsertCommand = new SqlCommand("insert into Personas values(@p1,@p2,@p3)");//faltan parametros
+            dataA.InsertCommand = new SqlCommand("update Personas set nombre = '{0}',apellido = '{1}',edad = {2} where id = {3}");//faltan parametros
+            dataA.InsertCommand = new SqlCommand("delete from Personas where id = {0}");//faltan parametros
+
+            //dataA.UpdateCommand = something;
+            //dataA.DeleteCommand = something;
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -193,6 +209,17 @@ namespace AdminPersonas
             {
                 MessageBox.Show(exc.Message);
             }
+        }
+
+        private void visualizarTablasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVisorDataTable frm = new FrmVisorDataTable();
+
+            frm.StartPosition = FormStartPosition.CenterScreen;
+
+            frm.Show();
+
+            this.lista = frm.ListaPersonas;
         }
     }
 }
