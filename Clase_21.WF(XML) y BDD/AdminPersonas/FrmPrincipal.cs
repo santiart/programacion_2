@@ -213,7 +213,7 @@ namespace AdminPersonas
 
         private void visualizarTablasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmVisorDataTable frm = new FrmVisorDataTable();
+            FrmVisorDataTable frm  = new FrmVisorDataTable(dt);
 
             frm.StartPosition = FormStartPosition.CenterScreen;
 

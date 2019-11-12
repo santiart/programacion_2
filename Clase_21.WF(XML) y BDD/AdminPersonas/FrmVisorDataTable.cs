@@ -14,21 +14,22 @@ namespace AdminPersonas
     public partial class FrmVisorDataTable : frmVisorPersona
     {
         DataTable dt;
-        public FrmVisorDataTable():base()
-        {
-            dt = new DataTable("Personas");
-        }
 
-        public FrmVisorDataTable(DataTable dat):this()
+        public FrmVisorDataTable(DataTable dat):base()
         {
             try
             {
-                DataRow dr;
-
-                for(int  i = 0; i < dt.Rows.Count; i++)
+                dt = dat;
+                //DataRow dr;
+                this.ActualizarLista();
+                //for(int  i = 0; i < dt.Rows.Count; i++)
+                //{
+                //    dr = dt.Rows[i];
+                //    this.lstVisor.Items.Add(dr["id"].ToString() + "-" + dr["name"].ToString() + "-" + dr["apellido"].ToString() + "-" + dr["edad"].ToString());
+                //}
+                foreach(DataRow fila in this.Dt.Rows)
                 {
-                    dr = dt.Rows[i];
-                    this.lstVisor.Items.Add(dr["id"].ToString() + "-" + dr["name"].ToString() + "-" + dr["apellido"].ToString() + "-" + dr["edad"].ToString());
+                    this.ListaPersonas.Add();
                 }
             }
             catch(Exception exc)
