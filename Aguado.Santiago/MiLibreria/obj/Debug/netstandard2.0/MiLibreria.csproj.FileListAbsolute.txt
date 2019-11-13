@@ -16,3 +16,12 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\nets
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+D:\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+D:\programacion_2\Aguado.Santiago\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfoInputs.cache
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
+D:\programacion_2\Aguado.Santiago\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb

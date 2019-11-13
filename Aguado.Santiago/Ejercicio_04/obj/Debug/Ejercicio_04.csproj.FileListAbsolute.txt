@@ -19,3 +19,10 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejer
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.exe
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.pdb
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\bin\Debug\Ejercicio_04.exe.config
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\bin\Debug\Ejercicio_04.exe
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\bin\Debug\Ejercicio_04.pdb
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.exe
+D:\programacion_2\Aguado.Santiago\Ejercicio_04\obj\Debug\Ejercicio_04.pdb

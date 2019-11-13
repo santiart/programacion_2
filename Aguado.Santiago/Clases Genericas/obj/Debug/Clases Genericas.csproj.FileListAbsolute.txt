@@ -10,3 +10,9 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.pdb
+D:\programacion_2\Aguado.Santiago\Clases Genericas\bin\Debug\Clases Genericas.dll
+D:\programacion_2\Aguado.Santiago\Clases Genericas\bin\Debug\Clases Genericas.pdb
+D:\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.dll
+D:\programacion_2\Aguado.Santiago\Clases Genericas\obj\Debug\Clases Genericas.pdb

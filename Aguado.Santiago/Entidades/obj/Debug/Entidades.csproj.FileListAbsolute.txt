@@ -10,3 +10,9 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidad
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Entidades\bin\Debug\Entidades.dll
+D:\programacion_2\Aguado.Santiago\Entidades\bin\Debug\Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.dll
+D:\programacion_2\Aguado.Santiago\Entidades\obj\Debug\Entidades.pdb

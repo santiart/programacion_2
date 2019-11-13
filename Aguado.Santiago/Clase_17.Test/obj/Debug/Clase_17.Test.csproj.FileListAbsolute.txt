@@ -8,3 +8,13 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\C
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.pdb
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\bin\Debug\Clase_17.Test.exe.config
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\bin\Debug\Clase_17.Test.exe
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\bin\Debug\Clase_17.Test.pdb
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\bin\Debug\Clase_17.Entidades.dll
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\bin\Debug\Clase_17.Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.exe
+D:\programacion_2\Aguado.Santiago\Clase_17.Test\obj\Debug\Clase_17.Test.pdb

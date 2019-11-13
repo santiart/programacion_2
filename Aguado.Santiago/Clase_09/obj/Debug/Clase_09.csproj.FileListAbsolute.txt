@@ -12,3 +12,10 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.dll
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.pdb
+D:\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.dll.config
+D:\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.dll
+D:\programacion_2\Aguado.Santiago\Clase_09\bin\Debug\Clase_09.pdb
+D:\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.dll
+D:\programacion_2\Aguado.Santiago\Clase_09\obj\Debug\Clase_09.pdb

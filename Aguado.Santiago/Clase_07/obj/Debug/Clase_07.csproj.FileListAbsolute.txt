@@ -26,3 +26,17 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.pdb
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.exe.config
+D:\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.exe
+D:\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_07.pdb
+D:\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.dll
+D:\programacion_2\Aguado.Santiago\Clase_07\bin\Debug\Clase_06.Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.Form1.resources
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.FrmTemperas.resources
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.Properties.Resources.resources
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.GenerateResource.cache
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.exe
+D:\programacion_2\Aguado.Santiago\Clase_07\obj\Debug\Clase_07.pdb

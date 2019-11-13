@@ -1,0 +1,10 @@
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\bin\Debug\Test.Clase_25.exe.config
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\bin\Debug\Test.Clase_25.exe
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\bin\Debug\Test.Clase_25.pdb
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\bin\Debug\Entidades.Clase__25.dll
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\bin\Debug\Entidades.Clase__25.pdb
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\obj\Debug\Test.Clase_25.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\obj\Debug\Test.Clase_25.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\obj\Debug\Test.Clase_25.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\obj\Debug\Test.Clase_25.exe
+D:\programacion_2\Aguado.Santiago\Test.Clase_25\obj\Debug\Test.Clase_25.pdb

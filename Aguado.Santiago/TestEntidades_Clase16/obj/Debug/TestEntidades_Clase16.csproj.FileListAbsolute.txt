@@ -8,3 +8,13 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\bin\Debug\TestEntidades_Clase16.exe.config
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\bin\Debug\TestEntidades_Clase16.exe
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\bin\Debug\TestEntidades_Clase16.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\bin\Debug\Entidades.Clase_16.dll
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\bin\Debug\Entidades.Clase_16.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.exe
+D:\programacion_2\Aguado.Santiago\TestEntidades_Clase16\obj\Debug\TestEntidades_Clase16.pdb

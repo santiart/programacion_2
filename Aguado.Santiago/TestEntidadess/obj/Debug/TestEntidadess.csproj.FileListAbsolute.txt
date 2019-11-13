@@ -8,3 +8,13 @@ C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.csproj.CopyComplete
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.exe
 C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidadess\bin\Debug\TestEntidadess.exe.config
+D:\programacion_2\Aguado.Santiago\TestEntidadess\bin\Debug\TestEntidadess.exe
+D:\programacion_2\Aguado.Santiago\TestEntidadess\bin\Debug\TestEntidadess.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidadess\bin\Debug\Entidadess.dll
+D:\programacion_2\Aguado.Santiago\TestEntidadess\bin\Debug\Entidadess.pdb
+D:\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.exe
+D:\programacion_2\Aguado.Santiago\TestEntidadess\obj\Debug\TestEntidadess.pdb

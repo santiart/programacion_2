@@ -18,3 +18,13 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Deb
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.csproj.CopyComplete
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.exe
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\bin\Debug\Prueba de Entidades.exe.config
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\bin\Debug\Prueba de Entidades.exe
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\bin\Debug\Prueba de Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\bin\Debug\Entidades.dll
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\bin\Debug\Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.csproj.CopyComplete
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.exe
+D:\programacion_2\Aguado.Santiago\Prueba de Entidades\obj\Debug\Prueba de Entidades.pdb

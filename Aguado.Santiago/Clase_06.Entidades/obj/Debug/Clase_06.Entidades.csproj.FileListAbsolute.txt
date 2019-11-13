@@ -10,3 +10,9 @@ C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debu
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
 C:\Users\Juan\Desktop\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.dll
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\bin\Debug\Clase_06.Entidades.pdb
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csprojAssemblyReference.cache
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.csproj.CoreCompileInputs.cache
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.dll
+D:\programacion_2\Aguado.Santiago\Clase_06.Entidades\obj\Debug\Clase_06.Entidades.pdb
