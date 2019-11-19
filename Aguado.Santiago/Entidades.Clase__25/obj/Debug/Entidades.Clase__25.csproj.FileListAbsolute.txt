@@ -4,3 +4,9 @@ D:\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase_
 D:\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.csproj.CoreCompileInputs.cache
 D:\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.dll
 D:\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\bin\Debug\Entidades.Clase__25.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\bin\Debug\Entidades.Clase__25.pdb
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.dll
+C:\Users\alumno\Desktop\programacion_2\Aguado.Santiago\Entidades.Clase__25\obj\Debug\Entidades.Clase__25.pdb

@@ -14,7 +14,6 @@ namespace Entidades.Clase__25
         private double sueldo;
         public event LimiteSueldoDelegado limiteSueldo;
         public event SueldoMejoradoDel limiteSueldoMejorado;
-        //public TipoManejador manejadorLimiteSueldo;
 
         #region Constructor
 
