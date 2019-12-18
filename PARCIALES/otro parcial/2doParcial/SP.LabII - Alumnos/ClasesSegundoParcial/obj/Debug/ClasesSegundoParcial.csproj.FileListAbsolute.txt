@@ -1,0 +1,6 @@
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\bin\Debug\ClasesSegundoParcial.dll
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\bin\Debug\ClasesSegundoParcial.pdb
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\obj\Debug\ClasesSegundoParcial.csproj.CoreCompileInputs.cache
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\obj\Debug\ClasesSegundoParcial.dll
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\obj\Debug\ClasesSegundoParcial.pdb
+C:\Users\screw\Desktop\2doParcial\SP.LabII - Alumnos\ClasesSegundoParcial\obj\Debug\ClasesSegundoParcial.csprojAssemblyReference.cache

@@ -8,6 +8,8 @@ namespace EntidadesSP
 {
     public interface ISerializa
     {
-        //bool Xml
+        bool Xml();
+
+        string path { get; }
     }
 }

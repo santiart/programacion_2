@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using EntidadesSP;
+using System.IO;
+using System.Data.SqlClient;
 
 namespace WindowsForms.SP
 {
@@ -128,15 +130,15 @@ namespace WindowsForms.SP
         //ImprimirTicket (se alojará en la clase Ticketeadora), que retorna un booleano indicando si se pudo escribir o no
         private void btnPunto4_Click(object sender, EventArgs e)
         {
-            //Asociar manejador de eventos (c_gomas_EventoPrecio) aquí           
+            this.c_gomas.EventoPrecio -= new Cartuchera<Goma>.LimitePrecio(c_gomas_EventoPrecio);
+            this.c_gomas.EventoPrecio += new Cartuchera<Goma>.LimitePrecio(c_gomas_EventoPrecio);
 
             this.c_gomas += new Goma(false, "Faber-Castell", 31);
         }
 
         private void c_gomas_EventoPrecio(object sender, EventArgs e)
         {
-            Ticketeadora t = new Ticketeadora();
-            bool todoOK = t.ImprimirTicket();
+            bool todoOK = Ticketeadora<Goma>.ImprimirTicket((Cartuchera<Goma>) sender);
 
             if (todoOK)
             {
@@ -157,11 +159,22 @@ namespace WindowsForms.SP
             //extensión por defecto -> .log
             //nombre de archovo (defecto) -> tickets
 
-            DialogResult rta = DialogResult.Cancel;//Reemplazar por la llamada al método correspondiente del OpenFileDialog
+            OpenFileDialog fileOpen = new OpenFileDialog();
+
+            fileOpen.Title = "Abrir archivo de tickets";
+            fileOpen.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            //fileOpen.Filter = 
+            fileOpen.FileName = "tickets.log";
+
+            DialogResult rta = fileOpen.ShowDialog();//Reemplazar por la llamada al método correspondiente del OpenFileDialog
 
             if (rta == System.Windows.Forms.DialogResult.OK)
             {
                 //leer el archivo seleccionado por el cliente y mostrarlo en txtVisorTickest
+                StreamReader sr = new StreamReader(fileOpen.FileName);
+
+                this.txtVisorTickets.Text = sr.ReadToEnd();
+                sr.Close();
             }
         }
 
@@ -203,7 +216,11 @@ namespace WindowsForms.SP
         {
             //Configurar el SqlConnection
 
+            ////this.cn = new SqlConnection(Properties.Settings.Default.conexion);////
+
             //Configurar el SqlDataAdapter (y su selectCommand)                        
+            this.da = new SqlDataAdapter("SELECT * FROM utiles", this.cn);
+            this.IsMdiContainer = true;
 
             this.da.Fill(this.dt);
             this.dataGridView1.DataSource = this.dt;
@@ -213,14 +230,39 @@ namespace WindowsForms.SP
         private void btnPunto7_Click(object sender, EventArgs e)
         {
             //Configurar el insertCommand del SqlDataAdapter y sus parametros
+            this.da.InsertCommand = new SqlCommand("INSERT INTO utiles(marca,precio,tipo) values(@marca,@precio,@tipo)", cn);
+            this.da.InsertCommand.Parameters.Add("@marca", SqlDbType.VarChar,50,"marca");
+            this.da.InsertCommand.Parameters.Add("@precio", SqlDbType.Float, 1000000000, "precio");
+            this.da.InsertCommand.Parameters.Add("@tipo",SqlDbType.VarChar,50,"tipo");
 
+            DataRow drL = dt.NewRow();
+            DataColumnCollection columns = dt.Columns;
+            drL[columns[1]] = this.lapiz.marca;
+            drL[columns[2]] = this.lapiz.precio;
+            drL[columns[3]] = this.lapiz.trazo.ToString();
+            dt.Rows.Add(drL);
+            DataRow drG = dt.NewRow();
+            drG[columns[1]] = this.goma.marca;
+            drG[columns[2]] = this.goma.precio;
+            drG[columns[3]] = this.goma.soloLapiz.ToString();
+            dt.Rows.Add(drG);
+            DataRow drS = dt.NewRow();
+            drS[columns[1]] = this.sacapunta.marca;
+            drS[columns[2]] = this.sacapunta.precio;
+            drS[columns[3]] = this.sacapunta.deMetal.ToString();
+            dt.Rows.Add(drS);
             //Agregar los utiles del formulario al dataTable
+
+            this.dataGridView1.DataSource = this.dt;
         }
 
         //Eliminar del dataTable el primer registro
         private void btnPunto8_Click(object sender, EventArgs e)
         {
             //Configurar el deleteCommand del SqlDataAdapter y sus parametros
+            this.da.DeleteCommand = new SqlCommand("delete from utiles where id=@id", cn);
+            this.da.DeleteCommand.Parameters.Add("@id", SqlDbType.Int, 2, "id");
+            this.dt.Rows[0].Delete();
 
             //Borrar el primer registro del dataTable
         }
@@ -229,7 +271,16 @@ namespace WindowsForms.SP
         private void btnPunto9_Click(object sender, EventArgs e)
         {
             //Configurar el updateCommand del SqlDataAdapter y sus parametros
+            da.UpdateCommand = new SqlCommand("update utiles set marca=@marca,precio=@precio,tipo=@tipo where id=@id", cn);
+            da.UpdateCommand.Parameters.Add("@marca", SqlDbType.VarChar, 50, "marca");
+            da.UpdateCommand.Parameters.Add("@precio", SqlDbType.VarChar, 50, "precio");
+            da.UpdateCommand.Parameters.Add("@tipo", SqlDbType.Int, 2, "tipo");
+            da.UpdateCommand.Parameters.Add("@id", SqlDbType.Int, 2, "id");
 
+            DataColumnCollection columna = dt.Columns;
+            DataRow fila = dt.Rows[dt.Rows.Count - 1];
+            fila[columna[1]] = "barrilito";
+            fila[columna[2]] = 72;
             //Modificar el ultimo registro del dataTable
         }
 
@@ -239,6 +290,7 @@ namespace WindowsForms.SP
             try
             {
                 //Sincronizar el SqlDataAdapter con la BD
+                this.da.Update(dt);
 
                 MessageBox.Show("Datos sincronizados!!!");
             }

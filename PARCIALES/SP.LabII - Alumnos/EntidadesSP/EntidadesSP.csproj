@@ -44,6 +44,7 @@
     <Compile Include="CartucheraLlenaException.cs" />
     <Compile Include="ETipoTrazo.cs" />
     <Compile Include="Goma.cs" />
+    <Compile Include="IDeserializa.cs" />
     <Compile Include="ISerializa.cs" />
     <Compile Include="Lapiz.cs" />
     <Compile Include="Sacapunta.cs" />

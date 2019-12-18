@@ -7,15 +7,26 @@ using System.IO;
 
 namespace EntidadesSP
 {
-    public class Ticketeadora
+    public class Ticketeadora<T> where T : Utiles 
     {
-        public bool ImprimirTicket()
+        public static bool ImprimirTicket(Cartuchera<T> c)
         {
             bool retorno = false;
             
-            if(File.Exists("//ticket.log"))
+            try
             {
+                string file = "//tickets.txt";
+
+                StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + file, true);
+                sw.WriteLine(DateTime.Now);
+                sw.WriteLine("Precio Total: $" + c.PrecioTotal.ToString() + "\n");
+                sw.Close();
+
                 retorno = true;
+            }
+            catch(Exception e)
+            {
+                throw e;
             }
 
             return retorno;

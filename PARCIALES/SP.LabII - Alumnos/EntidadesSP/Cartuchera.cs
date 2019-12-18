@@ -31,17 +31,14 @@ namespace EntidadesSP
         {
             get
             {
-                int suma = 0;
-                suma += elementos.Count;
-                if(suma > 85)
+                double precioTotal = 0;
+
+                foreach(T elemento in this.Elementos)
                 {
-                    this.EventoPrecio(this, suma);
+                    precioTotal += elemento.precio;
                 }
-                else
-                {
-                    return suma;
-                }
-                return suma;
+
+                return precioTotal;
             }
         }
 
@@ -64,24 +61,21 @@ namespace EntidadesSP
             if(c.Elementos.Count < c.capacidad)
             {
                 c.Elementos.Add(elementos);
+
+                if(c.PrecioTotal > 85)
+                {
+                    c.EventoPrecio(c, new EventArgs());
+                }
             }
             else
             {
-                c.EventoPrecio += new Cartuchera<T>.LimitePrecio(c.ManejadorPrecio);
+                throw new CartucheraLlenaException("");
             }
             return c;
         }
 
-        public delegate void LimitePrecio(Cartuchera<T> c, double precio);
+        public delegate void LimitePrecio(Cartuchera<T> c, EventArgs e);
         public event LimitePrecio EventoPrecio;
 
-        public void ManejadorPrecio(Cartuchera<T> c,double precio)
-        {
-            string file = "//tickets.log";
-
-            StreamWriter sw = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + file, true);
-            sw.WriteLine("Precio excedido: " + precio.ToString() + "de la Cartuchera: " + c.ToString() + "\n");
-            sw.Close();
-        }
     }
 }
